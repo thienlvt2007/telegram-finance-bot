@@ -1,0 +1,1 @@
+#!/bin/bash\npython bot_thuchi.py
