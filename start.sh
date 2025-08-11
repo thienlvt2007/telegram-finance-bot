@@ -1,1 +1,1 @@
-#!/bin/bash\npython bot_thuchi.py
+python3 bot_thuchi.py
