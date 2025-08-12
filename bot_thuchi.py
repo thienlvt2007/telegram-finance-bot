@@ -175,7 +175,7 @@ def main():
     job.run_daily(lambda ctx: ctx.bot.send_message(chat_id=CHAT_ID, text="💡 Ghi chú hôm nay tích cực không? Keep going 💪"),
                   time=time(hour=23, minute=30))
 
-    updater.start_polling()
+    updater.start_polling(drop_pending_updates=True)
     print("🤖 Bot đã khởi động thành công...")
     updater.idle()
 
